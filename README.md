@@ -5,4 +5,6 @@ DeepLabCut demonstration for the [Hands-on, Neural, Behavioural and Histological
 Ensure you either [install Anaconda](https://www.anaconda.com/download) or [install miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/) on your computer. 
 
 # Environment Setup
-Create a new environment at...
+
+1. Download the YML files for Windows/Linux/Microsoft
+2. In your Terminal/Anaconda Prompt
