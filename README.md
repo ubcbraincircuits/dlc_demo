@@ -9,7 +9,7 @@ You can verify that you have Anaconda if you have Anaconda Navigator in your app
 # Environment Setup
 
 1. Click the green "Code" button at the top of the page and select "Download Zip". This will download "dlc_demo-main.zip" onto your computer. Unzip this file.
-2. Open Termina/Anaconda Prompt and navigate to the "dlc_demo-main" folder that you just unzipped.
+2. Open Terminal/Anaconda Prompt and navigate to the "dlc_demo-main" folder that you just unzipped.
 > NOTE: use the commands `ls` to see subdirectories and `cd <subdirectory>` to navigate through your files. You can use `cd ..` to go to the parent directory.
 3. In your Terminal/Anaconda Prompt, enter these commands:
    - Windows/Linux/Intel Mac:
@@ -18,6 +18,7 @@ You can verify that you have Anaconda if you have Anaconda Navigator in your app
     ```
    - Apple Silicon Mac:
 > NOTE: You will need [homebrew](https://docs.brew.sh/Installation). After installing homebrew, download the wget library by running `brew install wget` in the Terminal.
+
     ```
     #get miniconda
     wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-MacOSX-arm64.sh -O ~/miniconda.sh
