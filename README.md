@@ -10,17 +10,23 @@ You can verify that you have Anaconda if you have Anaconda Navigator in your app
 
 1. Click the green "Code" button at the top of the page and select "Download Zip". This will download "dlc_demo-main.zip" onto your computer. Unzip this file.
 2. Open Termina/Anaconda Prompt and navigate to the "dlc_demo-main" folder that you just unzipped.
-> NOTE: 
+> NOTE: use the commands `ls` to see subdirectories and `cd <subdirectory>` to navigate through your files. You can use `cd ..` to go to the parent directory.
 3. In your Terminal/Anaconda Prompt, enter these commands:
    - Windows/Linux/Intel Mac:
-   ```
-   conda env create -f DEEPLABCUT.yaml
-   ```
+    ```
+    conda env create -f DEEPLABCUT.yaml
+    ```
    - Apple Silicon Mac:
 > NOTE: You will need [homebrew](https://docs.brew.sh/Installation). After installing homebrew, download the wget library by running `brew install wget` in the Terminal.
-   ```
-   wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-MacOSX-arm64.sh -O ~/miniconda.sh
-   bash ~/miniconda.sh -b -p $HOME/miniconda
-   source ~/miniconda/bin/activate
-   conda init zsh
-   ```
+    ```
+    #get miniconda
+    wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-MacOSX-arm64.sh -O ~/miniconda.sh
+    bash ~/miniconda.sh -b -p $HOME/miniconda
+    source ~/miniconda/bin/activate
+    conda init zsh
+
+    #create environment
+    git clone DeepLabCut
+    conda env create -f conda-environments/DEEPLABCUT_M1.yaml
+    ```
+4. Activate environment with `conda activate DEEPLABCUT` or `conda activate DEEPLABCUT_M1` depending on the YAML file you installed.
