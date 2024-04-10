@@ -13,6 +13,7 @@ You can verify that you have Anaconda if you have Anaconda Navigator in your app
 > NOTE: use the commands `ls` to see subdirectories and `cd <subdirectory>` to navigate through your files. You can use `cd ..` to go to the parent directory.
 3. In your Terminal/Anaconda Prompt, enter this command:
     ```
-    conda env create -f DEEPLABCUT.yaml
+    conda env create -f DEEPLABCUT.yaml # for Windows/Linux/Intel Mac
+    conda env create -f DEEPLABCUT_M1.yaml # for Apple Silicon Mac
     ```
 4. Activate environment with `conda activate DEEPLABCUT` or `conda activate DEEPLABCUT_M1`, depending on the YAML file you installed.
