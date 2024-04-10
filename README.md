@@ -19,4 +19,15 @@ You can verify that you have Anaconda if you have Anaconda Navigator in your app
     ```
     conda env create -f DEEPLABCUT_M1.yaml # for Apple Silicon Mac
     ```
-4. Activate environment with `conda activate DEEPLABCUT` or `conda activate DEEPLABCUT_M1`, depending on the YAML file you installed.
+# Activate the Environment
+
+Activate environment with `conda activate DEEPLABCUT` or `conda activate DEEPLABCUT_M1`, depending on the YAML file you installed.
+
+To activate Jupyter Notebooks, you can either:
+
+1. Open the Anaconda Navigator application and press "Launch" on Jupyter Notebook.
+2. Open Terminal/Anaconda Prompt and run this command in the deeplabcut environment:
+    ```
+    jupyter notebook
+    ```
+This will open up the Jupyter Notebook Home Page in your default browser. You will need to navigate to where "dlc_demo" is located on your computer. In this folder, open "dlc_tutorial.ipynb" to start.
