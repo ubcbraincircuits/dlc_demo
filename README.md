@@ -11,9 +11,12 @@ You can verify that you have Anaconda if you have Anaconda Navigator in your app
 1. Click the green "Code" button at the top of the page and select "Download Zip". This will download "dlc_demo-main.zip" onto your computer. Unzip this file.
 2. Open Terminal/Anaconda Prompt and navigate to the "dlc_demo-main" folder that you just unzipped.
 > NOTE: use the commands `ls` to see subdirectories and `cd <subdirectory>` to navigate through your files. You can use `cd ..` to go to the parent directory.
-3. In your Terminal/Anaconda Prompt, enter this command:
+3. In your Terminal/Anaconda Prompt, enter one of these commands:
     ```
     conda env create -f DEEPLABCUT.yaml # for Windows/Linux/Intel Mac
+    ```
+
+    ```
     conda env create -f DEEPLABCUT_M1.yaml # for Apple Silicon Mac
     ```
 4. Activate environment with `conda activate DEEPLABCUT` or `conda activate DEEPLABCUT_M1`, depending on the YAML file you installed.
