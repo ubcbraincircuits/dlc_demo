@@ -31,3 +31,5 @@ To activate Jupyter Notebooks, you can either:
     jupyter notebook
     ```
 This will open up the Jupyter Notebook Home Page in your default browser. You will need to navigate to where "dlc_demo" is located on your computer. In this folder, open "dlc_tutorial.ipynb" to start.
+
+Then, you need to run the Jupyter Notebook using the deeplabcut environment we just created. You can modify this by going Kernel > Change Kernel > Python [conda env:DEEPLABCUT] <em>or</em> Python [conda env:DEEPLABCUT_M1] option in the menu bar.
