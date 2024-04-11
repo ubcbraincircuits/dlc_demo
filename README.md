@@ -33,3 +33,8 @@ To activate Jupyter Notebooks, you can either:
 This will open up the Jupyter Notebook Home Page in your default browser. You will need to navigate to where "dlc_demo" is located on your computer. In this folder, open "dlc_tutorial.ipynb" to start.
 
 Then, you need to run the Jupyter Notebook using the deeplabcut environment we just created. You can modify this by going Kernel > Change Kernel > Python [conda env:DEEPLABCUT] <em>or</em> Python [conda env:DEEPLABCUT_M1] option in the menu bar.
+
+# Workshop Instructions
+
+<b>Start with the 'dlc_tutorial.ipynb' notebook.</b> This will teach you the basics of setting up labelled data in order to train the model.
+Afterwards, you can start on the second notebook, dlc_trained_model_ex.ipynb, where you will make use of a model that has already been trained to analyze a video and label it accordingly.
