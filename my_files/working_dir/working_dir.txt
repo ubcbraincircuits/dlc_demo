@@ -1,1 +1,1 @@
-This folder is where all of your project files will go.
+This folder is where all of your project files will go. The dlc_trained_model contains a pre-trained model for the second half of this workshop.
