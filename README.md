@@ -38,3 +38,7 @@ Then, you need to run the Jupyter Notebook using the deeplabcut environment we j
 
 <b>Start with the 'dlc_tutorial.ipynb' notebook.</b> This will teach you the basics of setting up labelled data in order to train the model.
 Afterwards, you can start on the second notebook, dlc_trained_model_ex.ipynb, where you will make use of a model that has already been trained to analyze a video and label it accordingly.
+
+# Citation Instructions
+
+If you use DeepLabCut in your future research projects, please read the information <a href="https://github.com/DeepLabCut/DeepLabCut?tab=readme-ov-file">here</a> and reference the original papers as per the author's request. 
