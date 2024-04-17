@@ -1,11 +1,6 @@
 # dlc_demo
 DeepLabCut demonstration for the [Hands-on, Neural, Behavioural and Histological Data Analysis Workshop](https://can-acn.org/meeting-2024/satellite-events/hands-on-neural-behavioural-and-histological-data-analysis-workshop-can2024-satellite/) by the UBC Dynamic Brain Circuit Cluster as a part of [CAN 2024](https://can-acn.org/meeting-2024/) meeting.
 
-# Prerequisites
-Ensure you either [install Anaconda](https://www.anaconda.com/download) or [install miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/) on your computer. 
-
-You can verify that you have Anaconda if you have Anaconda Navigator in your applications. You can also verify by running the command `conda --version` in the Terminal (Mac/Linux) or the Anaconda Prompt application (Windows).
-
 # Environment Setup
 
 1. Click the green "Code" button at the top of the page and select "Download Zip". This will download "dlc_demo-main.zip" onto your computer. Unzip this file.
@@ -19,6 +14,25 @@ You can verify that you have Anaconda if you have Anaconda Navigator in your app
     ```
     conda env create -f DEEPLABCUT_M1.yaml # for Apple Silicon Mac
     ```
+
+# Downloading Data
+All of the data used for this tutorial can be found <a href="https://osf.io/g9d76/?view_only=4dee0dec63c74fe8ab4f5b0a48623c43">here</a>. 
+
+1. <em>Sample Videos</em><br>
+For this workshop, you will download some sample videos to try implementing the deeplabcut tool. 
+>4 sample videos have been made available; however the steps for all 4 videos will be the same in our workshop. In the interest of time, we recommend downloading <b>only '00602.avi'.</b>
+* <b>Click</b> "00602.avi" and select "Download" to download it (258 MB).
+* <b>Move</b> the video file into "DLC_DEMO" > "my_files" > "videos".
+2. <em>Pre-Trained Model</em> (in the <a href="https://osf.io/a3gmp/?view_only=35aa9a33ad90429a81d73dfce04f70a9">Trained Model OSF Componant</a>)<br>
+In the interest of time, a pre-trained model has been provided to use in the second half of the workshop.
+* <b>Click</b> "dlc_trained_model.zip" and select "Download" to download it (2.17 GB zipped, 2.33 GB unzipped).
+* <b>Move</b> the unzipped "test-AshliandJeff-2021-03-17" folder into "DLC_Demo" > "my_files" > "working_dir"
+
+# Prerequisites
+Ensure you either [install Anaconda](https://www.anaconda.com/download) or [install miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/) on your computer. 
+
+You can verify that you have Anaconda if you have Anaconda Navigator in your applications. You can also verify by running the command `conda --version` in the Terminal (Mac/Linux) or the Anaconda Prompt application (Windows).
+
 # Activate the Environment
 
 Activate environment with `conda activate DEEPLABCUT` or `conda activate DEEPLABCUT_M1`, depending on the YAML file you installed.
